@@ -2,7 +2,6 @@ import Section from "./components/Section"
 
 function App () {
 const name = "Inga"
-const a = 5
 
 const testSection = (
   <p>Wow {name}</p>
