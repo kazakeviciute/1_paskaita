@@ -1,7 +1,8 @@
 const Section = () => {
     const name = "Inga"
     return (<section>
-        <p>Hello {name} how are you</p>
+        <p>Hi {name} how are you</p>
+        <p>Hello</p>
     </section>
 
     )
