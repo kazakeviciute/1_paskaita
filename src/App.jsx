@@ -1,4 +1,6 @@
 import Section from "./components/Section"
+import "./App.css"
+import Button from "./components/Button"
 
 function App () {
 const name = "Inga"
@@ -8,10 +10,13 @@ const testSection = (
  )
 
   return (<main>
-    <h1>Hi</h1>
+    <h1 className="hello">Hi</h1>
+    <div className="container">
+      If you love software press this button <Button/>
     <p>Wow {name}</p>
     {testSection}
-    <Section />
+    <Section/>
+    </div>
     </main>)
 }
 
